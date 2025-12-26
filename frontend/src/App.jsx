@@ -155,7 +155,7 @@ function App() {
       </div>
 
       <footer className="flex-none py-8 text-center text-sm text-muted-foreground">
-        <p>Built by <a href="https://x.com/sin4ch" target="_blank" rel="noopener noreferrer" className="text-foreground hover:underline underline-offset-4">@sin4ch</a></p>
+        <p>Built by <a href="https://x.com/sin4ch" target="_blank" rel="noopener noreferrer" className="text-foreground hover:underline underline-offset-4">@sin4ch</a> • <a href="https://github.com/sin4ch/resume-to-latex" target="_blank" rel="noopener noreferrer" className="text-foreground hover:underline underline-offset-4">⭐ Star on GitHub</a></p>
       </footer>
     </main>
   );
