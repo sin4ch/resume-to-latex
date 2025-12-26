@@ -90,14 +90,3 @@ Edit `backend/prompt.md` to customize conversion guidelines. You can modify:
 - Formatting rules
 - Content preservation guidelines
 
-## Logging
-
-The backend uses structured JSON logging for easy debugging. Logs include:
-
-- Timestamps
-- Event stages (validation, processing, conversion)
-- File metadata
-- Error details
-
-Logs are output to the console in JSON format.
-
