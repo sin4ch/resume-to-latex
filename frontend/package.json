@@ -10,11 +10,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "lucide-react": "^0.562.0",
     "axios": "^1.7.9",
     "clsx": "^2.1.1",
+    "lucide-react": "^0.562.0",
+    "mammoth": "^1.12.0",
+    "pdfjs-dist": "^6.0.227",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "tailwind-merge": "^2.5.5"
   },
   "devDependencies": {
