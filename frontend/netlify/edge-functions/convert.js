@@ -9,19 +9,19 @@ const prompt = `### The Prompt
 **Constraint Checklist & Confidence Score:**
 
 1. Use exact LaTeX Preamble and Custom Commands provided below.
-2. **Header:** Name must be \\\Huge and \\\textbf. Contact info must be on **one line**, separated by |, and every link must be underlined using \\\underlinedlink command. Reduce vertical space between name and links.
-3. **Section Titles:** Use \\\section{Title}. The preamble converts them to Small Caps.
+2. **Header:** Name must be \\Huge and \\textbf. Contact info must be on **one line**, separated by |, and every link must be underlined using \\underlinedlink command. Reduce vertical space between name and links.
+3. **Section Titles:** Use \\section{Title}. The preamble converts them to Small Caps.
 4. **Order of Sections:** Education  About  Experience  Projects  Skills.
 5. **About Section:** Convert to Summary and any Community/Leadership info into a single "About" section with 4-5 bullet points.
-6. **Experience Section:** Use \\\resumeSubheading. If the candidate has specific "Open Source" experience, create a separate section for it. If not, group everything under "Work Experience".
-7. **Bolded Impact:** In **Experience** and **Projects** bullet points, you **must** bold the first 3-6 words of sentence (the action verb and the immediate context/impact). Example: \\\resumeItem{\\\textbf{Orchestrated a three-tier architecture} using Docker...}.
-8. **Projects:** Use \\\resumeSubheading.
+6. **Experience Section:** Use \\resumeSubheading. If the candidate has specific "Open Source" experience, create a separate section for it. If not, group everything under "Work Experience".
+7. **Bolded Impact:** In **Experience** and **Projects** bullet points, you **must** bold the first 3-6 words of sentence (the action verb and the immediate context/impact). Example: \\resumeItem{\\textbf{Orchestrated a three-tier architecture} using Docker...}.
+8. **Projects:** Use \\resumeSubheading.
 * Line 1 Left: Project Name.
-* Line 1 Right: Stars/Forks (if applicable) \\\underlinedlink{url}{Link Text}.
+* Line 1 Right: Stars/Forks (if applicable) \\underlinedlink{url}{Link Text}.
 * Line 2 Left: Tools/Tech Stack (Italicized).
 * Line 2 Right: Empty or Date.
 
-9. **Links:** ALL links (Email, LinkedIn, GitHub, Project URLs) must be wrapped in \\\underlinedlink{url}{display}.
+9. **Links:** ALL links (Email, LinkedIn, GitHub, Project URLs) must be wrapped in \\underlinedlink{url}{display}.
 10. **Skills:** Use spacing defined in the template. Keep categories bold, items normal.
 
 **The LaTeX Skeleton (DO NOT CHANGE THIS PREAMBLE):**
@@ -113,27 +113,27 @@ const prompt = `### The Prompt
 **Content Generation Instructions:**
 
 1. **Header:** Populate with provided contact info.
-2. **Education:** Use \\\resumeSubheading. Format: University Name (L), Location (R), Degree (L), Dates (R).
-3. **About:** Synthesize to the user's summary and leadership/community experience into 5 high-impact bullet points using \\\resumeItemListStart and \\\resumeItem.
+2. **Education:** Use \\resumeSubheading. Format: University Name (L), Location (R), Degree (L), Dates (R).
+3. **About:** Synthesize to the user's summary and leadership/community experience into 5 high-impact bullet points using \\resumeItemListStart and \\resumeItem.
 4. **Experience:**
-* Use \\\resumeSubHeadingListStart.
-* For each role, use \\\resumeSubheading{Company}{Dates}{Role}{Location}.
-* Inside role, use \\\resumeItemListStart.
+* Use \\resumeSubHeadingListStart.
+* For each role, use \\resumeSubheading{Company}{Dates}{Role}{Location}.
+* Inside role, use \\resumeItemListStart.
 * **CRITICAL:** Bold the first few words of every bullet point to highlight achievement.
 
 
 5. **Projects:**
-* Use \\\resumeSubHeadingListStart.
-* For each project, use \\\resumeProjectHeading{Project Name}{Stats/Link}.
-* Inside project, use \\\resumeItemListStart.
+* Use \\resumeSubHeadingListStart.
+* For each project, use \\resumeProjectHeading{Project Name}{Stats/Link}.
+* Inside project, use \\resumeItemListStart.
 * **CRITICAL:** Bold the first few words of every bullet point.
-* Close with \\\resumeItemListEnd.
-* Close with \\\resumeSubHeadingListEnd.
+* Close with \\resumeItemListEnd.
+* Close with \\resumeSubHeadingListEnd.
 
 6. **Skills:**
 * Use \\begin{itemize}[leftmargin=0.15in, label={}]
-* Format: \\\item \\\small \\\textbf{Category}{: Skill, Skill, Skill}
-* Add \\\vspace{1pt} between categories.
+* Format: \\item \\small \\textbf{Category}{: Skill, Skill, Skill}
+* Add \\vspace{1pt} between categories.
 * Close with \\end{itemize}
 `;
 
